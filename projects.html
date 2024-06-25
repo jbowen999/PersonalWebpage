@@ -5,21 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/projects.css" />
-    <title>Julian Bowen - Programmer</title>
+    <title>Julian Bowen</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <h1>Projects</h1>
     </header>
-    <h3>To do list</h3>
-    <p>Description</p>
-    <h3>Number Guesser</h3>
-    <p>Description</p>
-    <h3>Temperature Converter</h3>
-    <p>Description</p>
+    <div class="container">
+      <div class="content">
+        <div class="text-content">
+          <h3>To-do list</h3>
+          <p>
+            You can keep track of what you need to get done with this to-do page
+            I made in my intro to web-design class. This project got me to dip
+            into local storage and event listeners in JavaScript.
+          </p>
+          <p>
+            <a href="https://jbowen999.github.io/Web_Todo_List/">View Page</a>
+          </p>
+        </div>
+        <img
+          src="img/to-do.png"
+          alt="A screen shot of my To-do list"
+          class="content-img"
+        />
+      </div>
+      <div class="content">
+        <div class="text-content">
+          <h3>Number Guesser</h3>
+          <p>
+            Can you guess the number? Hint: if you know binary search you can
+            alway guess it in less than ten tries.😉
+          </p>
+          <p>
+            <a href="https://jbowen999.github.io/NumberGuesser/">View Page</a>
+          </p>
+        </div>
+        <img
+          src="img/number.png"
+          alt="A screen shot of my number guesser"
+          class="content-img"
+        />
+      </div>
+      <div class="content">
+        <div class="text-content">
+          <h3>Temperature Converter</h3>
+          <p>
+            If you find yourself in Europe and need to know how cold it is
+            outside, look no further than this simple temperature converter. But
+            what if you are European and are here in the US on business? Luckily
+            there is a toggle to quickly change the conversion type. So useful!
+            😎
+          </p>
+          <p>
+            <a href="https://jbowen999.github.io/tempConverter/">View Page</a>
+          </p>
+        </div>
+        <img
+          src="img/temp.png"
+          alt="A screen shot of my temperature converter"
+          class="content-img"
+        />
+      </div>
+    </div>
   </body>
 </html>

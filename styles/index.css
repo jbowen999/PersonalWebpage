@@ -2,4 +2,23 @@
   width: 100px;
   height: auto;
   border-radius: 100%;
+  margin: 10px;
+}
+
+#start {
+  flex-direction: row;
+  padding: 2vh;
+}
+
+#end {
+  flex-direction: column;
+  padding: 2vh;
+}
+
+p {
+  max-width: 500px;
+  margin: 2vh;
+}
+h3 {
+  margin: 2vh;
 }
