@@ -9,6 +9,7 @@
 #start {
   flex-direction: row;
   padding: 2vh;
+  gap: 2vw;
 }
 
 #end {
@@ -22,4 +23,19 @@ p {
 }
 h3 {
   margin: 2vh;
+}
+
+#logo-links {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  gap: 70px;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin: 10px;
 }
