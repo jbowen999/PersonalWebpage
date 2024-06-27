@@ -10,3 +10,6 @@ p {
 img {
   margin: 4vw 0 4vw 0;
 }
+#st-martin {
+  box-shadow: none;
+}

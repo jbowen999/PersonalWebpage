@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/contact.css" />
-    <title>Julian Bowen</title>
+    <title>Julian Bowen - Contact</title>
   </head>
   <body>
     <header>
@@ -21,17 +21,34 @@
             <li>
               <a href="projects.html">Projects</a>
             </li>
+            <li><a href="https://github.com/jbowen999">GitHub</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/julian-bowen-90256030b/"
+                >LinkedIn</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="container">
-      <h3>Get in touch</h3>
-      <form>
-        <input id="name" type="text" placeholder="Name" />
-        <input id="email" type="email" placeholder="Email" />
-        <input type="submit" id="submitBtn" />
-      </form>
-    </div>
+    <section id="main">
+      <div id="box">
+        <h3>Get in touch</h3>
+        <form id="contactForm">
+          <input id="name" type="text" placeholder="Name" required />
+          <input id="email" type="email" placeholder="Email" required />
+          <textarea
+            id="message"
+            rows="4"
+            placeholder="Message"
+            required
+          ></textarea>
+          <input type="submit" id="submitBtn" value="Submit" />
+        </form>
+      </div>
+
+      <p id="thankYouMessage"></p>
+    </section>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
