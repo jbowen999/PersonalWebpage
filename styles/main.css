@@ -90,22 +90,22 @@ ol {
   margin-left: 100px;
   text-align: left;
 }
-/* Media query to handle responsiveness for smaller screens */
+
 @media screen and (max-width: 768px) {
   .content {
-    flex-direction: column; /* Stack text and image vertically */
+    flex-direction: column;
     align-items: center;
   }
 
   .content-img {
-    width: 80vw; /* Adjust as needed for smaller screens */
-    margin-top: 1rem; /* Add some space between text and image */
+    width: 80vw;
+    margin-top: 1rem;
   }
 
   .text-content {
-    max-width: 100%; /* Allow text to take full width */
-    align-items: center; /* Center-align text */
-    text-align: left; /* Center-align text */
+    max-width: 100%;
+    align-items: center;
+    text-align: left;
   }
   h1 {
     font-size: 28px;
